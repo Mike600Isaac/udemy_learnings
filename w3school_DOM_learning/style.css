@@ -1,0 +1,29 @@
+#test {
+ border: 2px solid sandybrown;
+ color: aquamarine;
+ background-color: bisque;
+}
+
+#test:required {
+
+}
+
+body {
+  background-color: sienna;
+}
+
+.but_2, .but_1 {
+  margin-top: 20px;
+  background-color: #000000;
+  color: sandybrown;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid sandybrown;
+  border-radius: 5px;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.but_2:hover, .but_1:hover { 
+  background-color: sandybrown;
+  color: #000000;
+}
