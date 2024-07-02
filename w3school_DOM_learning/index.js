@@ -1,5 +1,6 @@
 // window.alert("Am working guys.....")
 
+// These are functions for onclick events......
 function formValidation() {
   let nameValueCheck = document.forms["myForm"]["fname"].value;
   let nameValue = document.querySelector("input").value;
@@ -34,3 +35,15 @@ function hidFunction() {
   let txtTarget = document.getElementById("test");
   txtTarget.style.visibility="hidden";
 }       
+
+// These are functions for onmouseover or onmouseout
+
+function mouseHover(ob) {
+  // let text = querySelector("#dText");
+  ob.style.color= "white";
+  ob.textContent="TESTING MOUSEOVER..."
+}
+
+function unMouseHover(obj) {
+  obj.textContent="MOUSE OVER ME!"
+}
